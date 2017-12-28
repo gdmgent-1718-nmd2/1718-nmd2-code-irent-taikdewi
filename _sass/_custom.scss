@@ -1,6 +1,5 @@
 
 // TYPO //
-
  p{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -43,42 +42,55 @@
     font-size: 20px;
     padding-left: 20px;
 }
+.leesmeer{
+  margin-top:20px;
+  margin-bottom:30px;
+}
 
 
-
-
-    // others//
+ // INDEX JUMBO//
  .jumbotron-index {
-   background: url(../../Images/banner.jpg) no-repeat center center;
+   background: url(../../images/banner.jpg) no-repeat center center;
    background-size: contain;
-   height: 210px;
+   height: 250px;
    margin-bottom:50px;
    
    border-radius: 0px;
    position: relative;
  }
- 
-   .bedankt {
-     padding-top: 20px;
-   }
- 
-   .jumboknop{
-     position: absolute;
-     bottom: 10px;
-     right: 10px;
-     }
- 
-     .navbar{
-       padding-bottom: 40px;
-       padding-left: 0px;
-       }
- 
-       .paket {
-         width: 350px;
-         height: 350px;
-       }
- 
 
+ .jumboknop{
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+ 
+ 
+// NAV //
+.navbar{
+  padding-bottom: 40px;
+  padding-left: 0px;
+}
+ 
+.nav-item {
+  font-size: 15px;
+  text-align:left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.navbar-brand{
+  padding-top:30px;
+  padding-bottom:20px;
+}
+
+.logo {
+  height: 45px;
+  padding-left:20px;
+}
+ 
+// CARDS ROUTES //
  .overlay {
    position: absolute;
    bottom: 0;
@@ -118,14 +130,38 @@
    padding-top: 20px;
  }
  
- .indextitle {
-   padding-top: 20px;
- }
+ .card-title {
+  text-align: center;
+}
+
+
+  // ANDERE PAGINAS //
+.indextitle {
+    padding-top: 20px;
+  }
+
+.bedankt {
+  padding-top: 20px;
+}
+
+.paket {
+  width: 350px;
+  height: 350px;
+}
  
  .alpacatext {
    padding-top: 20px;
  }
- 
+
+ li {
+  color: #D85F3F;
+}
+li span {
+  color: black;
+}
+
+
+ // BUTTONS //
  .input-group-addon {
    background-color: #69a8a6; 
    color: white; 
@@ -140,17 +176,27 @@
    border-color: #69a8a6;
  }
 
+.btn-outline-dark:hover {
+  background-color:#69a8a6;
+  color:white;
+  border-color:#69a8a6;
+}
+
  
- .card-title {
-   text-align: center;
- }
- 
+ // FLUFFY JUMBO //
  .jumbotronto {
    background-image: none;
    background-color: #69a8a6;
    text-align: center; 
+   padding-top: 60px;
+   padding-left: 10px;
+   padding-right: 10px;
  }
- 
+
+ .fluffyjumbo{
+  padding-top:60px;
+}
+
  .leadfluf {
    color:white;
  }
@@ -169,56 +215,33 @@
    width:400px;
  }
 
+ // FOOTER //
  .footer{
-    background-color: #D85F3F;
+    background-color:#D85F3F;;
     margin-top: 50px;
  }
- 
-.footerhr {
-     color:white;
- }
-
- .drieindex {
-     min-height: 170px;
-    }
 
 .footericon {
-    margin-top: 30px;
+  margin-top: 30px;
+   margin-right:10px;
 }
 
 .iconcontact {
-    margin-right: 30px;
+  margin-bottom: 30px;
+   display: block;
 }
-
-.nav-item {
-    font-size: 15px;
-    text-align:left;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 17px;
-}
-
-.navbar-brand{
-    
-    padding-top:30px;
-    padding-bottom:20px;
+.icooncontact-top{
+  display: block;
 }
 
 .d-block {
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
-li {
-    color: #D85F3F;
-}
-li span {
-    color: black;
-}
 
-.logo {
-    height: 45px;
-    padding-left:20px;
-}
+
+
+
 
 
 
@@ -248,7 +271,25 @@ li span {
             padding-top: 30px;
             padding-bottom: 20px;
         }
+        .container{
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+      .logo{
+        padding-left:0px;
+      }
+      .drieindex {
+        min-height: 170px;
+       }
+       .leesmeer{
+        margin-bottom:0px;
+        margin-top:0px;
+      }
+      .footericon{
+        margin-right:20px;
+      }
 }
+
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {  }
